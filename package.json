@@ -1,0 +1,16 @@
+{
+  "name": "dialysis-connect-playwright-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "node scripts/run-e2e.js",
+    "test:bdd:generate": "bddgen test",
+    "allure:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "3.11.1",
+    "playwright-bdd": "^9.2.1"
+  }
+}
